@@ -5,7 +5,6 @@ body {
 .full-width {
   width: 1200px;
   margin: 0 auto;
-  position: relative;
 }
 .two-thirds-width {
   width: 800px;
@@ -88,12 +87,12 @@ nav ul li a {
   padding-top: 20px;
 }
 #about p {
+  width: 650px;
+  padding-left: 23%;
   font-family: 'Open Sans', sans-serif;
   font-weight: normal;
   font-size: 24px;
   color: #ffffff;
-  width: 650px;
-  padding-left: 275px;
 }
 
 /***** WORK *****/
@@ -162,10 +161,9 @@ nav ul li a {
   font-weight: normal;
   font-size: 18px;
   color: #ffffff;
-  position: absolute;
-  bottom: 0;
-  left: 460px;
   line-height: 0px;
+  padding-top: 25%;
+
 }
 #contact img {
   border-radius: 50%;
