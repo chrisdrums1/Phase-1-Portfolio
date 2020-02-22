@@ -15,7 +15,7 @@ nav {
   text-transform: uppercase;
   display: flex;
   flex-flow: row wrap;
-  width: 40%;
+  width: 100%;
   padding-top: 2%;
 }
 nav ul {
@@ -85,21 +85,23 @@ nav ul a {
   width: 300px;
   border: 5px solid #ffffff;
 }
-.about-text span {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: bold;
-  font-style: italic;
-  font-size: 24px;
-  color: #ffffff;
-  padding-top: 4%;
-}
 #about p {
   font-family: 'Open Sans', sans-serif;
   font-weight: normal;
   font-size: 24px;
+  text-align: justify;
   color: #ffffff;
   padding-top: 4%;
   line-height: 150%
+}
+.about-text h4 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 24px;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 4%;
 }
 
 /***** WORK *****/
@@ -200,4 +202,8 @@ footer .copyright {
     justify-content: space-around;
     align-items: center;
     flex-wrap: nowrap;
+  }
+  nav {
+    width: 40%;
+  }
 }
